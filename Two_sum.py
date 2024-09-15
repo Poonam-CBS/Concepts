@@ -1,3 +1,5 @@
+#This is a code to find sum of two numbers from a list of numners whose sum is equal to a target number
+#Here we write a function with two pa
 def two_sum_all_pairs(nums, target):
     lookup = {}
     result = []
