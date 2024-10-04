@@ -9,7 +9,7 @@ def sum_of_two(num_list, nsum):
         if req_num in num_list:
             #if this req_num is there in num_list then store its index in j. num_list.index(req_num) is basically index of the re_um from the list num_list.
             j=num_list.index(req_num)
-            if i!=j and i<j:
+            if i!=j and i<j: # i<j is done to avoid double counting
                 result.append((j,i)) #keeps on adding the pair of indices. Append is a useful command to add to a given list 
     return result #return the list result
 
